@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true">
+  <h1>Pet Shop</h1>
+  <div class="espaco">
+    <ion-row style="margin-top: 30px">
+      <ion-col>
+        <ion-item class="roundeInput" line="none">
+          <ion-label position="floating">Nome<span style="color: red">*</span></ion-label>
+          <ion-input
+     
+       ></ion-input>
+        </ion-item>
+      </ion-col>
+
+      <ion-col>
+        <ion-item class="roundeInput" line="none">
+          <ion-label position="floating">Idade<span style="color: red">*</span></ion-label>
+          <ion-input
+     
+       ></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </div>
+
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col class="espaco">
+      <ion-button shape="block" color="success" (click)="cadastrar()">{{LabelBotao}}</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-footer>
